@@ -5,7 +5,7 @@ import { captchaReducer } from "../components/captcha/reducer";
 
 export default function configureStore (history, initialState) {
     const reducers = {
-      captcha: captchaReducer,
+      captcha: captchaReducer.reducer,
     };
 
     const middleware = [

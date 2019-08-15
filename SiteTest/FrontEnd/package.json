@@ -44,6 +44,7 @@
     "react-test-renderer": "^16.8.6",
     "reactstrap": "^8.0.0",
     "redux": "^4.0.4",
+    "redux-starter-kit": "^0.6.3",
     "redux-thunk": "^2.3.0",
     "simple-line-icons": "^2.4.1",
     "styled-components": "^4.3.2"
