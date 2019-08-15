@@ -2,9 +2,6 @@ import update from '../../helpers/update';
 import CaptchaService from './captchaService';
 import { createSlice } from 'redux-starter-kit';
 
-// export const KEY_POST_STARTED = "captcha/KEY_POST_STARTED";
-// export const KEY_POST_SUCCESS = "captcha/KEY_POST_SUCCESS";
-// export const KEY_POST_FAILED = "captcha/KEY_POST_FAILED";
 
 const initialState = {
     key: {
@@ -48,6 +45,8 @@ export const captchaReducer = createSlice({
         }
     }
 });
+
+
 
 export const createNewKey = () => {
     return (dispatch) => {
