@@ -34,7 +34,7 @@ export const captchaReducer = createSlice({
             console.log("get key", data);
             newState = update.set(state, 'key.loading', false);
             newState = update.set(newState, 'key.success', true);
-           // newState = update.set(newState, 'list.data', data);
+            newState = update.set(newState, 'key.data', data);
             return newState;
         },
         KeyPostFailed: state => {

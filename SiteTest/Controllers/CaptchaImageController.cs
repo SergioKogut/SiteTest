@@ -53,7 +53,7 @@ namespace SiteTest.Controllers
             _emailSender = emailSender;
         }
         [HttpPost("post-guid-captcha")]
-        public async Task<IActionResult> GuidCaptcha()
+        public IActionResult GuidCaptcha()
         {
             //await _emailSender.SendEmailAsync("novakvova@gmail.com", "Confirm Email",
             //   $"Please confirm your email by clicking here: " +
@@ -114,6 +114,7 @@ namespace SiteTest.Controllers
 
             return Ok();
         }
+
 
     }
 }
